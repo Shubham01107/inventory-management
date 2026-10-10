@@ -1,0 +1,20 @@
+
+{
+  "name": "inventory-management",
+  "version": "1.0.0",
+  "description": "Inventory and Data Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.1"
+  }
+}
